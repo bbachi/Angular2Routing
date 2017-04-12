@@ -1,6 +1,6 @@
 # Angular2Routing
 
-## make the service call in mgOnit example
+## make the service call on load of the component.
 ```
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import 'rxjs/add/operator/switchMap';

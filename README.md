@@ -1,6 +1,9 @@
 # Angular2Routing
 
 ## make the service call on load of the component.
+
+#### The ActivatedRoute.params property is an Observable of route parameters. The params emits new id values when the user navigates to the component. In ngOnInit you subscribe to those values, set the selectedId, and get the heroes.
+
 ```
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import 'rxjs/add/operator/switchMap';

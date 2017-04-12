@@ -38,3 +38,16 @@ export class HeroListComponent implements OnInit {
 }
 ```
 
+
+## Route guards
+
+1.  Perhaps the user is not authorized to navigate to the target component.
+2.  Maybe the user must login (authenticate) first.
+3.  Maybe you should fetch some data before you display the target component.
+4.  You might want to save pending changes before leaving a component.
+5.  You might ask the user if it's OK to discard pending changes rather than save them.
+
+If it returns true, the navigation process continues.
+
+If it returns false, the navigation process stops and the user stays put
+

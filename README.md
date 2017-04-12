@@ -1,7 +1,7 @@
 # Angular2Routing
 
 ## make the service call in mgOnit example
-`
+```
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 import { Observable } from 'rxjs/Observable';
@@ -25,4 +25,4 @@ export class HeroListComponent implements OnInit {
       });
   }
 }
-`
+```
